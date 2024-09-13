@@ -54,19 +54,19 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#2c140a',
+        backgroundColor: '#fff',
         padding: 150,
 
     },
     title: {
         fontSize: 28,
         fontWeight: 'bold',
-        color: '#fff',
+        color: '#2c140a',
         marginBottom: 16,
         textAlign: 'center',
     },
     button: {
-        backgroundColor: '#fff',
+        backgroundColor: '#2c140a',
         paddingVertical: 10,
         paddingHorizontal: 20,
         borderRadius: 4,
@@ -76,9 +76,8 @@ const styles = StyleSheet.create({
         marginHorizontal: 10,
     },
     button2: {
-        backgroundColor: 'transparent',
-        borderColor: '#fff',
-        borderWidth: 1,
+        backgroundColor: '#fff', 
+        borderWidth: 1.5,
         paddingVertical: 10,
         paddingHorizontal: 20,
         borderRadius: 4,
@@ -86,14 +85,14 @@ const styles = StyleSheet.create({
         marginHorizontal: 10,
     },
     buttonText: {
-        color: '#fff',
+        color: '#2c140a',
         fontSize: 16,
         fontWeight: 'bold',
         textAlign: 'center',
  
     },
     buttonText2: {
-        color: '#2c140a',
+        color: '#fff',
         fontSize: 16,
         fontWeight: 'bold',
         textAlign: 'center',
@@ -109,15 +108,18 @@ const styles = StyleSheet.create({
     label: {
         marginBottom: 8,
         fontSize: 18,
-        color: '#fff'
+        color: '#2c140a',
+        marginLeft: 10,
+        
     },
     input: {
         width: '100%',
-        borderColor: 'white',
-        borderWidth: 1,
+        height: '5%',
+        borderColor: '#2c140a',
+        borderWidth: 1.5,
         marginBottom: 50,
         paddingHorizontal: 8,
-        borderRadius: 4,
+        borderRadius: 5,
         color: 'gray',
     },
     lado: {
@@ -126,6 +128,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     spam: {
-        color: '#fff',
+        color: '#2c140a',
     },
 });
